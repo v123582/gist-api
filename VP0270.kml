@@ -1,0 +1,1221 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="VP0270" id="VP0270">
+	<SimpleField name="landmarkid" type="string"></SimpleField>
+	<SimpleField name="landmarkco" type="int"></SimpleField>
+	<SimpleField name="landmarkna" type="string"></SimpleField>
+	<SimpleField name="landmarkad" type="string"></SimpleField>
+	<SimpleField name="address" type="string"></SimpleField>
+	<SimpleField name="tel" type="string"></SimpleField>
+	<SimpleField name="updatedate" type="string"></SimpleField>
+</Schema>
+<Folder><name>VP0270</name>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#VP0270">
+		<SimpleData name="landmarkid">6400000001693</SimpleData>
+		<SimpleData name="landmarkco">306</SimpleData>
+		<SimpleData name="landmarkna">小港捷運站-出口1</SimpleData>
+		<SimpleData name="landmarkad">6400011</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.353995355847,22.564142031626702</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#VP0270">
+		<SimpleData name="landmarkid">6400000001694</SimpleData>
+		<SimpleData name="landmarkco">306</SimpleData>
+		<SimpleData name="landmarkna">小港捷運站-出口2</SimpleData>
+		<SimpleData name="landmarkad">6400011</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.354441351258,22.564386053213301</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#VP0270">
+		<SimpleData name="landmarkid">6400000001695</SimpleData>
+		<SimpleData name="landmarkco">306</SimpleData>
+		<SimpleData name="landmarkna">小港捷運站-出口3</SimpleData>
+		<SimpleData name="landmarkad">6400011</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.353644339702,22.565288007030201</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#VP0270">
+		<SimpleData name="landmarkid">6400000001696</SimpleData>
+		<SimpleData name="landmarkco">306</SimpleData>
+		<SimpleData name="landmarkna">小港捷運站-出口4</SimpleData>
+		<SimpleData name="landmarkad">6400011</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.353133356678,22.5648250644774</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#VP0270">
+		<SimpleData name="landmarkid">6400000001700</SimpleData>
+		<SimpleData name="landmarkco">306</SimpleData>
+		<SimpleData name="landmarkna">高雄小港國際機場捷運站-出口1</SimpleData>
+		<SimpleData name="landmarkad">6400011</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.344177318712,22.569382018476599</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#VP0270">
+		<SimpleData name="landmarkid">6400000001701</SimpleData>
+		<SimpleData name="landmarkco">306</SimpleData>
+		<SimpleData name="landmarkna">高雄小港國際機場捷運站-出口2</SimpleData>
+		<SimpleData name="landmarkad">6400011</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.34404435370401,22.570616015558102</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#VP0270">
+		<SimpleData name="landmarkid">6400000001702</SimpleData>
+		<SimpleData name="landmarkco">306</SimpleData>
+		<SimpleData name="landmarkna">高雄小港國際機場捷運站-出口3</SimpleData>
+		<SimpleData name="landmarkad">6400011</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.341830380773,22.570234047030301</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#VP0270">
+		<SimpleData name="landmarkid">6400000001703</SimpleData>
+		<SimpleData name="landmarkco">306</SimpleData>
+		<SimpleData name="landmarkna">高雄小港國際機場捷運站-出口4</SimpleData>
+		<SimpleData name="landmarkad">6400011</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.343213351429,22.5701720569323</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#VP0270">
+		<SimpleData name="landmarkid">6400000001704</SimpleData>
+		<SimpleData name="landmarkco">306</SimpleData>
+		<SimpleData name="landmarkna">高雄小港國際機場捷運站-出口5</SimpleData>
+		<SimpleData name="landmarkad">6400011</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.34146533329201,22.5702400480804</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#VP0270">
+		<SimpleData name="landmarkid">6400000001705</SimpleData>
+		<SimpleData name="landmarkco">306</SimpleData>
+		<SimpleData name="landmarkna">高雄小港國際機場捷運站-出口6</SimpleData>
+		<SimpleData name="landmarkad">6400011</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.341554350001,22.571222065088101</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#VP0270">
+		<SimpleData name="landmarkid">6400000001706</SimpleData>
+		<SimpleData name="landmarkco">306</SimpleData>
+		<SimpleData name="landmarkna">高雄小港國際機場捷運站-出口7</SimpleData>
+		<SimpleData name="landmarkad">6400011</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.341158378944,22.570241048068802</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#VP0270">
+		<SimpleData name="landmarkid">6400000001619</SimpleData>
+		<SimpleData name="landmarkco">306</SimpleData>
+		<SimpleData name="landmarkna">高雄車捷運站-出口</SimpleData>
+		<SimpleData name="landmarkad">6400005</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.302701321097,22.6379779771347</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#VP0270">
+		<SimpleData name="landmarkid">6400000001620</SimpleData>
+		<SimpleData name="landmarkco">306</SimpleData>
+		<SimpleData name="landmarkna">後驛捷運站-出口1</SimpleData>
+		<SimpleData name="landmarkad">6400005</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.30307537042,22.647866068875</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#VP0270">
+		<SimpleData name="landmarkid">6400000001697</SimpleData>
+		<SimpleData name="landmarkco">306</SimpleData>
+		<SimpleData name="landmarkna">後驛捷運站-出口2</SimpleData>
+		<SimpleData name="landmarkad">6400005</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.30341537097701,22.6477750638029</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#VP0270">
+		<SimpleData name="landmarkid">6400000001698</SimpleData>
+		<SimpleData name="landmarkco">306</SimpleData>
+		<SimpleData name="landmarkna">後驛捷運站-出口3</SimpleData>
+		<SimpleData name="landmarkad">6400005</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.303514386591,22.6490030602262</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#VP0270">
+		<SimpleData name="landmarkid">6400000001699</SimpleData>
+		<SimpleData name="landmarkco">306</SimpleData>
+		<SimpleData name="landmarkna">後驛捷運站-出口4</SimpleData>
+		<SimpleData name="landmarkad">6400005</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.30320536372,22.648982028452</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#VP0270">
+		<SimpleData name="landmarkid">6400000001581</SimpleData>
+		<SimpleData name="landmarkco">306</SimpleData>
+		<SimpleData name="landmarkna">鳳山捷運站-出口1</SimpleData>
+		<SimpleData name="landmarkad">6400012</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.355988335845,22.6257640290202</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#VP0270">
+		<SimpleData name="landmarkid">6400000001582</SimpleData>
+		<SimpleData name="landmarkco">306</SimpleData>
+		<SimpleData name="landmarkna">鳳山西捷運站-出口1</SimpleData>
+		<SimpleData name="landmarkad">6400012</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.34741938478,22.624818019700299</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#VP0270">
+		<SimpleData name="landmarkid">6400000001583</SimpleData>
+		<SimpleData name="landmarkco">306</SimpleData>
+		<SimpleData name="landmarkna">鳳山西捷運站-出口2</SimpleData>
+		<SimpleData name="landmarkad">6400012</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.34902336946701,22.625068028805199</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#VP0270">
+		<SimpleData name="landmarkid">6400000001584</SimpleData>
+		<SimpleData name="landmarkco">306</SimpleData>
+		<SimpleData name="landmarkna">鳳山捷運站-出口2</SimpleData>
+		<SimpleData name="landmarkad">6400012</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.355945364227,22.626204058052299</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#VP0270">
+		<SimpleData name="landmarkid">6400000001585</SimpleData>
+		<SimpleData name="landmarkco">306</SimpleData>
+		<SimpleData name="landmarkna">大東捷運站-出口1</SimpleData>
+		<SimpleData name="landmarkad">6400012</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.363553367766,22.625509994687899</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#VP0270">
+		<SimpleData name="landmarkid">6400000001586</SimpleData>
+		<SimpleData name="landmarkco">306</SimpleData>
+		<SimpleData name="landmarkna">大東捷運站-出口2</SimpleData>
+		<SimpleData name="landmarkad">6400012</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.36282532494,22.625082978993401</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#VP0270">
+		<SimpleData name="landmarkid">6400000001645</SimpleData>
+		<SimpleData name="landmarkco">306</SimpleData>
+		<SimpleData name="landmarkna">市議會捷運站-出口1</SimpleData>
+		<SimpleData name="landmarkad">6400007</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.29360535063999,22.6291139918014</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#VP0270">
+		<SimpleData name="landmarkid">6400000001646</SimpleData>
+		<SimpleData name="landmarkco">306</SimpleData>
+		<SimpleData name="landmarkna">市議會捷運站-出口2</SimpleData>
+		<SimpleData name="landmarkad">6400007</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.29369334224801,22.628492015664701</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#VP0270">
+		<SimpleData name="landmarkid">6400000001647</SimpleData>
+		<SimpleData name="landmarkco">306</SimpleData>
+		<SimpleData name="landmarkna">市議會捷運站-出口3</SimpleData>
+		<SimpleData name="landmarkad">6400007</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.295266368824,22.629025021886999</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#VP0270">
+		<SimpleData name="landmarkid">6400000001648</SimpleData>
+		<SimpleData name="landmarkco">306</SimpleData>
+		<SimpleData name="landmarkna">市議會捷運站-出口4</SimpleData>
+		<SimpleData name="landmarkad">6400007</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.295154355222,22.629308029893998</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#VP0270">
+		<SimpleData name="landmarkid">6400000001649</SimpleData>
+		<SimpleData name="landmarkco">306</SimpleData>
+		<SimpleData name="landmarkna">中央公園捷運站-出口1</SimpleData>
+		<SimpleData name="landmarkad">6400007</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.30042837728401,22.6249150500342</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#VP0270">
+		<SimpleData name="landmarkid">6400000001650</SimpleData>
+		<SimpleData name="landmarkco">306</SimpleData>
+		<SimpleData name="landmarkna">鹽埕埔捷運站-出口1</SimpleData>
+		<SimpleData name="landmarkad">6400001</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.28344532866301,22.623273031280299</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#VP0270">
+		<SimpleData name="landmarkid">6400000001651</SimpleData>
+		<SimpleData name="landmarkco">306</SimpleData>
+		<SimpleData name="landmarkna">鹽埕埔捷運站-出口2</SimpleData>
+		<SimpleData name="landmarkad">6400001</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.284381341334,22.624642054721001</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#VP0270">
+		<SimpleData name="landmarkid">6400000001652</SimpleData>
+		<SimpleData name="landmarkco">306</SimpleData>
+		<SimpleData name="landmarkna">鹽埕埔捷運站-出口3</SimpleData>
+		<SimpleData name="landmarkad">6400001</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.284100351479,22.6241770317652</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#VP0270">
+		<SimpleData name="landmarkid">6400000001653</SimpleData>
+		<SimpleData name="landmarkco">306</SimpleData>
+		<SimpleData name="landmarkna">鹽埕埔捷運站-出口4</SimpleData>
+		<SimpleData name="landmarkad">6400001</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.283963333518,22.623923988884901</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#VP0270">
+		<SimpleData name="landmarkid">6400000001654</SimpleData>
+		<SimpleData name="landmarkco">306</SimpleData>
+		<SimpleData name="landmarkna">文化中心捷運站-出口3</SimpleData>
+		<SimpleData name="landmarkad">6400008</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.31838136143,22.629835065513198</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#VP0270">
+		<SimpleData name="landmarkid">6400000001655</SimpleData>
+		<SimpleData name="landmarkco">306</SimpleData>
+		<SimpleData name="landmarkna">文化中心捷運站-出口4</SimpleData>
+		<SimpleData name="landmarkad">6400008</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.318280368768,22.6303170127165</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#VP0270">
+		<SimpleData name="landmarkid">6400000001656</SimpleData>
+		<SimpleData name="landmarkco">306</SimpleData>
+		<SimpleData name="landmarkna">文化中心捷運站-出口2</SimpleData>
+		<SimpleData name="landmarkad">6400008</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.31695135571999,22.6301350623039</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#VP0270">
+		<SimpleData name="landmarkid">6400000001657</SimpleData>
+		<SimpleData name="landmarkco">306</SimpleData>
+		<SimpleData name="landmarkna">五塊厝捷運站-出口1</SimpleData>
+		<SimpleData name="landmarkad">6400008</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.327086353967,22.6297680484582</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#VP0270">
+		<SimpleData name="landmarkid">6400000001658</SimpleData>
+		<SimpleData name="landmarkco">306</SimpleData>
+		<SimpleData name="landmarkna">五塊厝捷運站-出口2</SimpleData>
+		<SimpleData name="landmarkad">6400008</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.327630385879,22.6297350163732</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#VP0270">
+		<SimpleData name="landmarkid">6400000001659</SimpleData>
+		<SimpleData name="landmarkco">306</SimpleData>
+		<SimpleData name="landmarkna">五塊厝捷運站-出口3</SimpleData>
+		<SimpleData name="landmarkad">6400008</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.326702358555,22.629464059534399</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#VP0270">
+		<SimpleData name="landmarkid">6400000001660</SimpleData>
+		<SimpleData name="landmarkco">306</SimpleData>
+		<SimpleData name="landmarkna">五塊厝捷運站-出口4</SimpleData>
+		<SimpleData name="landmarkad">6400008</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.32795533523699,22.629080052663699</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#VP0270">
+		<SimpleData name="landmarkid">6400000001661</SimpleData>
+		<SimpleData name="landmarkco">306</SimpleData>
+		<SimpleData name="landmarkna">五塊厝捷運站-出口5</SimpleData>
+		<SimpleData name="landmarkad">6400008</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.327935346315,22.6296760537384</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#VP0270">
+		<SimpleData name="landmarkid">6400000001662</SimpleData>
+		<SimpleData name="landmarkco">306</SimpleData>
+		<SimpleData name="landmarkna">五塊厝捷運站-出口6</SimpleData>
+		<SimpleData name="landmarkad">6400008</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.32885130749,22.629326031270299</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#VP0270">
+		<SimpleData name="landmarkid">6400000001663</SimpleData>
+		<SimpleData name="landmarkco">306</SimpleData>
+		<SimpleData name="landmarkna">技擊館捷運站-出口1</SimpleData>
+		<SimpleData name="landmarkad">6400008</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.334220358651,22.627693004957798</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#VP0270">
+		<SimpleData name="landmarkid">6400000001664</SimpleData>
+		<SimpleData name="landmarkco">306</SimpleData>
+		<SimpleData name="landmarkna">技擊館捷運站-出口2</SimpleData>
+		<SimpleData name="landmarkad">6400008</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.33411234952,22.6270780466708</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#VP0270">
+		<SimpleData name="landmarkid">6400000001665</SimpleData>
+		<SimpleData name="landmarkco">306</SimpleData>
+		<SimpleData name="landmarkna">技擊館捷運站-出口3</SimpleData>
+		<SimpleData name="landmarkad">6400008</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.334971328367,22.626773993732201</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#VP0270">
+		<SimpleData name="landmarkid">6400000001666</SimpleData>
+		<SimpleData name="landmarkco">306</SimpleData>
+		<SimpleData name="landmarkna">技擊館捷運站-出口4</SimpleData>
+		<SimpleData name="landmarkad">6400008</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.33500037255899,22.6274250215473</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#VP0270">
+		<SimpleData name="landmarkid">6400000001667</SimpleData>
+		<SimpleData name="landmarkco">306</SimpleData>
+		<SimpleData name="landmarkna">衛武營捷運站-出口1</SimpleData>
+		<SimpleData name="landmarkad">6400008</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.340437363848,22.625649004759801</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#VP0270">
+		<SimpleData name="landmarkid">6400000001668</SimpleData>
+		<SimpleData name="landmarkco">306</SimpleData>
+		<SimpleData name="landmarkna">衛武營捷運站-出口2</SimpleData>
+		<SimpleData name="landmarkad">6400008</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.33995636131201,22.6253240561309</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#VP0270">
+		<SimpleData name="landmarkid">6400000001669</SimpleData>
+		<SimpleData name="landmarkco">306</SimpleData>
+		<SimpleData name="landmarkna">衛武營捷運站-出口3</SimpleData>
+		<SimpleData name="landmarkad">6400008</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.340841372171,22.624890023138999</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#VP0270">
+		<SimpleData name="landmarkid">6400000001670</SimpleData>
+		<SimpleData name="landmarkco">306</SimpleData>
+		<SimpleData name="landmarkna">衛武營捷運站-出口4</SimpleData>
+		<SimpleData name="landmarkad">6400008</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.341960340908,22.625182996186201</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#VP0270">
+		<SimpleData name="landmarkid">6400000001671</SimpleData>
+		<SimpleData name="landmarkco">306</SimpleData>
+		<SimpleData name="landmarkna">衛武營捷運站-出口5</SimpleData>
+		<SimpleData name="landmarkad">6400008</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.34280231723299,22.625057024635002</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#VP0270">
+		<SimpleData name="landmarkid">6400000001672</SimpleData>
+		<SimpleData name="landmarkco">306</SimpleData>
+		<SimpleData name="landmarkna">三多商圈捷運站-出口1</SimpleData>
+		<SimpleData name="landmarkad">6400008</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.304441330331,22.613247004551599</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#VP0270">
+		<SimpleData name="landmarkid">6400000001673</SimpleData>
+		<SimpleData name="landmarkco">306</SimpleData>
+		<SimpleData name="landmarkna">三多商圈捷運站-出口3</SimpleData>
+		<SimpleData name="landmarkad">6400008</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.30500236478299,22.6131870268844</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#VP0270">
+		<SimpleData name="landmarkid">6400000001674</SimpleData>
+		<SimpleData name="landmarkco">306</SimpleData>
+		<SimpleData name="landmarkna">三多商圈捷運站-出口5</SimpleData>
+		<SimpleData name="landmarkad">6400008</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.304620311108,22.614367063164799</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#VP0270">
+		<SimpleData name="landmarkid">6400000001675</SimpleData>
+		<SimpleData name="landmarkco">306</SimpleData>
+		<SimpleData name="landmarkna">三多商圈捷運站-出口6</SimpleData>
+		<SimpleData name="landmarkad">6400008</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.30439935562001,22.6149410555585</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#VP0270">
+		<SimpleData name="landmarkid">6400000001676</SimpleData>
+		<SimpleData name="landmarkco">306</SimpleData>
+		<SimpleData name="landmarkna">三多商圈捷運站-出口7</SimpleData>
+		<SimpleData name="landmarkad">6400008</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.30398932314399,22.614823041422699</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#VP0270">
+		<SimpleData name="landmarkid">6400000001677</SimpleData>
+		<SimpleData name="landmarkco">306</SimpleData>
+		<SimpleData name="landmarkna">三多商圈捷運站-出口2</SimpleData>
+		<SimpleData name="landmarkad">6400008</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.30480331101001,22.6128519964726</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#VP0270">
+		<SimpleData name="landmarkid">6400000001678</SimpleData>
+		<SimpleData name="landmarkco">306</SimpleData>
+		<SimpleData name="landmarkna">草衙捷運站-出口1</SimpleData>
+		<SimpleData name="landmarkad">6400009</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.32863238340001,22.579783988063902</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#VP0270">
+		<SimpleData name="landmarkid">6400000001679</SimpleData>
+		<SimpleData name="landmarkco">306</SimpleData>
+		<SimpleData name="landmarkna">草衙捷運站-出口2</SimpleData>
+		<SimpleData name="landmarkad">6400009</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.32914631405301,22.5808910659897</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#VP0270">
+		<SimpleData name="landmarkid">6400000001680</SimpleData>
+		<SimpleData name="landmarkco">306</SimpleData>
+		<SimpleData name="landmarkna">草衙捷運站-出口3</SimpleData>
+		<SimpleData name="landmarkad">6400009</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.328232327883,22.580453999293301</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#VP0270">
+		<SimpleData name="landmarkid">6400000001681</SimpleData>
+		<SimpleData name="landmarkco">306</SimpleData>
+		<SimpleData name="landmarkna">草衙捷運站-出口4</SimpleData>
+		<SimpleData name="landmarkad">6400009</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.327806319845,22.581033042503101</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#VP0270">
+		<SimpleData name="landmarkid">6400000001682</SimpleData>
+		<SimpleData name="landmarkco">306</SimpleData>
+		<SimpleData name="landmarkna">前鎮高中捷運站-出口1</SimpleData>
+		<SimpleData name="landmarkad">6400009</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.321925325667,22.5879289977916</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#VP0270">
+		<SimpleData name="landmarkid">6400000001683</SimpleData>
+		<SimpleData name="landmarkco">306</SimpleData>
+		<SimpleData name="landmarkna">前鎮高中捷運站-出口2</SimpleData>
+		<SimpleData name="landmarkad">6400009</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.322242368791,22.588874050436502</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#VP0270">
+		<SimpleData name="landmarkid">6400000001684</SimpleData>
+		<SimpleData name="landmarkco">306</SimpleData>
+		<SimpleData name="landmarkna">前鎮高中捷運站-出口3</SimpleData>
+		<SimpleData name="landmarkad">6400009</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.32112531125701,22.5888980537209</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#VP0270">
+		<SimpleData name="landmarkid">6400000001685</SimpleData>
+		<SimpleData name="landmarkco">306</SimpleData>
+		<SimpleData name="landmarkna">凱旋捷運站-出口3</SimpleData>
+		<SimpleData name="landmarkad">6400009</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.314628374695,22.5973450045406</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#VP0270">
+		<SimpleData name="landmarkid">6400000001686</SimpleData>
+		<SimpleData name="landmarkco">306</SimpleData>
+		<SimpleData name="landmarkna">凱旋捷運站-出口2</SimpleData>
+		<SimpleData name="landmarkad">6400009</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.316128336871,22.596424033995198</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#VP0270">
+		<SimpleData name="landmarkid">6400000001687</SimpleData>
+		<SimpleData name="landmarkco">306</SimpleData>
+		<SimpleData name="landmarkna">凱旋捷運站-出口1</SimpleData>
+		<SimpleData name="landmarkad">6400009</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.315363371226,22.5962570313912</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#VP0270">
+		<SimpleData name="landmarkid">6400000001688</SimpleData>
+		<SimpleData name="landmarkco">306</SimpleData>
+		<SimpleData name="landmarkna">獅甲捷運站-出口3</SimpleData>
+		<SimpleData name="landmarkad">6400009</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.30810236138799,22.6064729753998</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#VP0270">
+		<SimpleData name="landmarkid">6400000001689</SimpleData>
+		<SimpleData name="landmarkco">306</SimpleData>
+		<SimpleData name="landmarkna">獅甲捷運站-出口1</SimpleData>
+		<SimpleData name="landmarkad">6400009</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.30816737582001,22.605503985596201</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#VP0270">
+		<SimpleData name="landmarkid">6400000001690</SimpleData>
+		<SimpleData name="landmarkco">306</SimpleData>
+		<SimpleData name="landmarkna">獅甲捷運站-出口2</SimpleData>
+		<SimpleData name="landmarkad">6400009</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.30872331344101,22.605735060329899</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#VP0270">
+		<SimpleData name="landmarkid">6400000001691</SimpleData>
+		<SimpleData name="landmarkco">306</SimpleData>
+		<SimpleData name="landmarkna">獅甲捷運站-出口4</SimpleData>
+		<SimpleData name="landmarkad">6400009</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.30747330597499,22.606392049313701</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#VP0270">
+		<SimpleData name="landmarkid">6400000001692</SimpleData>
+		<SimpleData name="landmarkco">306</SimpleData>
+		<SimpleData name="landmarkna">三多商圈捷運站-出口4</SimpleData>
+		<SimpleData name="landmarkad">6400009</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.305233318722,22.613864040284401</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#VP0270">
+		<SimpleData name="landmarkid">6400000001587</SimpleData>
+		<SimpleData name="landmarkco">306</SimpleData>
+		<SimpleData name="landmarkna">大寮捷運站-出口1</SimpleData>
+		<SimpleData name="landmarkad">6400014</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.390684318241,22.621563005653101</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#VP0270">
+		<SimpleData name="landmarkid">6400000001588</SimpleData>
+		<SimpleData name="landmarkco">306</SimpleData>
+		<SimpleData name="landmarkna">大寮捷運站-出口2</SimpleData>
+		<SimpleData name="landmarkad">6400014</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.391259307542,22.621486973907398</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#VP0270">
+		<SimpleData name="landmarkid">6400000001589</SimpleData>
+		<SimpleData name="landmarkco">306</SimpleData>
+		<SimpleData name="landmarkna">世運捷運站-出口1</SimpleData>
+		<SimpleData name="landmarkad">6400004</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.302327341649,22.701120058574499</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#VP0270">
+		<SimpleData name="landmarkid">6400000001590</SimpleData>
+		<SimpleData name="landmarkco">306</SimpleData>
+		<SimpleData name="landmarkna">世運捷運站-出口2</SimpleData>
+		<SimpleData name="landmarkad">6400004</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.30233936278201,22.701995983331901</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#VP0270">
+		<SimpleData name="landmarkid">6400000001591</SimpleData>
+		<SimpleData name="landmarkco">306</SimpleData>
+		<SimpleData name="landmarkna">世運捷運站-出口3</SimpleData>
+		<SimpleData name="landmarkad">6400004</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.302700380739,22.701142005524201</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#VP0270">
+		<SimpleData name="landmarkid">6400000001592</SimpleData>
+		<SimpleData name="landmarkco">306</SimpleData>
+		<SimpleData name="landmarkna">世運捷運站-出口4</SimpleData>
+		<SimpleData name="landmarkad">6400004</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.30266331377,22.7019619921711</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#VP0270">
+		<SimpleData name="landmarkid">6400000001593</SimpleData>
+		<SimpleData name="landmarkco">306</SimpleData>
+		<SimpleData name="landmarkna">油廠國小捷運站-出口1</SimpleData>
+		<SimpleData name="landmarkad">6400004</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.302094309585,22.7083389801202</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#VP0270">
+		<SimpleData name="landmarkid">6400000001594</SimpleData>
+		<SimpleData name="landmarkco">306</SimpleData>
+		<SimpleData name="landmarkna">油廠國小捷運站-出口3</SimpleData>
+		<SimpleData name="landmarkad">6400004</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.302481309916,22.708414003583801</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#VP0270">
+		<SimpleData name="landmarkid">6400000001595</SimpleData>
+		<SimpleData name="landmarkco">306</SimpleData>
+		<SimpleData name="landmarkna">油廠國小捷運站-出口4</SimpleData>
+		<SimpleData name="landmarkad">6400004</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.302476378953,22.7088009804128</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#VP0270">
+		<SimpleData name="landmarkid">6400000001596</SimpleData>
+		<SimpleData name="landmarkco">306</SimpleData>
+		<SimpleData name="landmarkna">油廠國小捷運站-出口2</SimpleData>
+		<SimpleData name="landmarkad">6400004</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.302081367417,22.7088490208412</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#VP0270">
+		<SimpleData name="landmarkid">6400000001597</SimpleData>
+		<SimpleData name="landmarkco">306</SimpleData>
+		<SimpleData name="landmarkna">楠梓加工區捷運站-出口1</SimpleData>
+		<SimpleData name="landmarkad">6400004</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.306091338256,22.7184880475948</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#VP0270">
+		<SimpleData name="landmarkid">6400000001598</SimpleData>
+		<SimpleData name="landmarkco">306</SimpleData>
+		<SimpleData name="landmarkna">楠梓加工區捷運站-出口2</SimpleData>
+		<SimpleData name="landmarkad">6400004</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.306222317175,22.718165018675901</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#VP0270">
+		<SimpleData name="landmarkid">6400000001599</SimpleData>
+		<SimpleData name="landmarkco">306</SimpleData>
+		<SimpleData name="landmarkna">楠梓加工區捷運站-出口3</SimpleData>
+		<SimpleData name="landmarkad">6400004</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.307245335367,22.718543988494002</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#VP0270">
+		<SimpleData name="landmarkid">6400000001600</SimpleData>
+		<SimpleData name="landmarkco">306</SimpleData>
+		<SimpleData name="landmarkna">楠梓加工區捷運站-出口4</SimpleData>
+		<SimpleData name="landmarkad">6400004</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.307845370424,22.718781043578701</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#VP0270">
+		<SimpleData name="landmarkid">6400000001601</SimpleData>
+		<SimpleData name="landmarkco">306</SimpleData>
+		<SimpleData name="landmarkna">楠梓加工區捷運站-出口5</SimpleData>
+		<SimpleData name="landmarkad">6400004</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.30821834423899,22.719256989947699</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#VP0270">
+		<SimpleData name="landmarkid">6400000001602</SimpleData>
+		<SimpleData name="landmarkco">306</SimpleData>
+		<SimpleData name="landmarkna">後徑捷運站-出口1</SimpleData>
+		<SimpleData name="landmarkad">6400004</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.315988311486,22.722412053023898</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#VP0270">
+		<SimpleData name="landmarkid">6400000001603</SimpleData>
+		<SimpleData name="landmarkco">306</SimpleData>
+		<SimpleData name="landmarkna">後徑捷運站-出口2</SimpleData>
+		<SimpleData name="landmarkad">6400004</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.31695537827299,22.722784039036199</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#VP0270">
+		<SimpleData name="landmarkid">6400000001604</SimpleData>
+		<SimpleData name="landmarkco">306</SimpleData>
+		<SimpleData name="landmarkna">後徑捷運站-出口3</SimpleData>
+		<SimpleData name="landmarkad">6400004</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.31704738563199,22.7224140514742</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#VP0270">
+		<SimpleData name="landmarkid">6400000001605</SimpleData>
+		<SimpleData name="landmarkco">306</SimpleData>
+		<SimpleData name="landmarkna">都會公園捷運站-出口1</SimpleData>
+		<SimpleData name="landmarkad">6400004</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.320939344335,22.728595059644899</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#VP0270">
+		<SimpleData name="landmarkid">6400000001606</SimpleData>
+		<SimpleData name="landmarkco">306</SimpleData>
+		<SimpleData name="landmarkna">都會公園捷運站-出口2</SimpleData>
+		<SimpleData name="landmarkad">6400004</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.321398361977,22.728864972574499</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#VP0270">
+		<SimpleData name="landmarkid">6400000001607</SimpleData>
+		<SimpleData name="landmarkco">306</SimpleData>
+		<SimpleData name="landmarkna">都會公園捷運站-出口3</SimpleData>
+		<SimpleData name="landmarkad">6400004</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.32104636126201,22.730047051764501</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#VP0270">
+		<SimpleData name="landmarkid">6400000001608</SimpleData>
+		<SimpleData name="landmarkco">306</SimpleData>
+		<SimpleData name="landmarkna">都會公園捷運站-出口4</SimpleData>
+		<SimpleData name="landmarkad">6400004</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.32053834041599,22.7299270324879</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#VP0270">
+		<SimpleData name="landmarkid">6400000001609</SimpleData>
+		<SimpleData name="landmarkco">306</SimpleData>
+		<SimpleData name="landmarkna">凹子底捷運站-出口2</SimpleData>
+		<SimpleData name="landmarkad">6400003</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.303496318825,22.6570550417531</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#VP0270">
+		<SimpleData name="landmarkid">6400000001610</SimpleData>
+		<SimpleData name="landmarkco">306</SimpleData>
+		<SimpleData name="landmarkna">凹子底捷運站-出口3</SimpleData>
+		<SimpleData name="landmarkad">6400003</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.303158327419,22.6580630257744</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#VP0270">
+		<SimpleData name="landmarkid">6400000001611</SimpleData>
+		<SimpleData name="landmarkco">306</SimpleData>
+		<SimpleData name="landmarkna">巨蛋捷運站-出口1</SimpleData>
+		<SimpleData name="landmarkad">6400003</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.302760322343,22.665897039906699</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#VP0270">
+		<SimpleData name="landmarkid">6400000001612</SimpleData>
+		<SimpleData name="landmarkco">306</SimpleData>
+		<SimpleData name="landmarkna">巨蛋捷運站-出口4</SimpleData>
+		<SimpleData name="landmarkad">6400003</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.303414309357,22.6667679941147</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#VP0270">
+		<SimpleData name="landmarkid">6400000001613</SimpleData>
+		<SimpleData name="landmarkco">306</SimpleData>
+		<SimpleData name="landmarkna">巨蛋捷運站-出口5</SimpleData>
+		<SimpleData name="landmarkad">6400003</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.303132369967,22.6668910415145</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#VP0270">
+		<SimpleData name="landmarkid">6400000001614</SimpleData>
+		<SimpleData name="landmarkco">306</SimpleData>
+		<SimpleData name="landmarkna">巨蛋捷運站-出口3</SimpleData>
+		<SimpleData name="landmarkad">6400003</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.30312437876201,22.666455055582801</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#VP0270">
+		<SimpleData name="landmarkid">6400000001615</SimpleData>
+		<SimpleData name="landmarkco">306</SimpleData>
+		<SimpleData name="landmarkna">生態園區捷運站-出口1</SimpleData>
+		<SimpleData name="landmarkad">6400003</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.306381319682,22.675841011224399</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#VP0270">
+		<SimpleData name="landmarkid">6400000001616</SimpleData>
+		<SimpleData name="landmarkco">306</SimpleData>
+		<SimpleData name="landmarkna">生態園區捷運站-出口2</SimpleData>
+		<SimpleData name="landmarkad">6400003</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.306543316985,22.677305991078001</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#VP0270">
+		<SimpleData name="landmarkid">6400000001617</SimpleData>
+		<SimpleData name="landmarkco">306</SimpleData>
+		<SimpleData name="landmarkna">左營捷運站-出口1</SimpleData>
+		<SimpleData name="landmarkad">6400003</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.308667370908,22.687567015532501</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#VP0270">
+		<SimpleData name="landmarkid">6400000001618</SimpleData>
+		<SimpleData name="landmarkco">306</SimpleData>
+		<SimpleData name="landmarkna">左營捷運站-出口2</SimpleData>
+		<SimpleData name="landmarkad">6400003</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.307554333909,22.688629005123602</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#VP0270">
+		<SimpleData name="landmarkid">6400000001573</SimpleData>
+		<SimpleData name="landmarkco">306</SimpleData>
+		<SimpleData name="landmarkna">岡山捷運站-出口1</SimpleData>
+		<SimpleData name="landmarkad">6400019</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.302000375185,22.780640010069199</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#VP0270">
+		<SimpleData name="landmarkid">6400000001574</SimpleData>
+		<SimpleData name="landmarkco">306</SimpleData>
+		<SimpleData name="landmarkna">岡山捷運站-出口2</SimpleData>
+		<SimpleData name="landmarkad">6400019</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.301734331877,22.781238981625599</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#VP0270">
+		<SimpleData name="landmarkid">6400000001575</SimpleData>
+		<SimpleData name="landmarkco">306</SimpleData>
+		<SimpleData name="landmarkna">青埔捷運站-出口1</SimpleData>
+		<SimpleData name="landmarkad">6400020</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.317656309535,22.743557040144299</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#VP0270">
+		<SimpleData name="landmarkid">6400000001576</SimpleData>
+		<SimpleData name="landmarkco">306</SimpleData>
+		<SimpleData name="landmarkna">橋頭糖廠捷運站-出口1</SimpleData>
+		<SimpleData name="landmarkad">6400020</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.31455136053999,22.752743985743699</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#VP0270">
+		<SimpleData name="landmarkid">6400000001577</SimpleData>
+		<SimpleData name="landmarkco">306</SimpleData>
+		<SimpleData name="landmarkna">橋頭糖廠捷運站-出口2</SimpleData>
+		<SimpleData name="landmarkad">6400020</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.31481231859,22.753012977749901</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#VP0270">
+		<SimpleData name="landmarkid">6400000001578</SimpleData>
+		<SimpleData name="landmarkco">306</SimpleData>
+		<SimpleData name="landmarkna">橋頭糖廠捷運站-出口3</SimpleData>
+		<SimpleData name="landmarkad">6400020</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.31482433117399,22.7528910146154</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#VP0270">
+		<SimpleData name="landmarkid">6400000001579</SimpleData>
+		<SimpleData name="landmarkco">306</SimpleData>
+		<SimpleData name="landmarkna">橋頭火車捷運站-出口1</SimpleData>
+		<SimpleData name="landmarkad">6400020</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.31155136809301,22.760054033721701</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#VP0270">
+		<SimpleData name="landmarkid">6400000001580</SimpleData>
+		<SimpleData name="landmarkco">306</SimpleData>
+		<SimpleData name="landmarkna">橋頭火車捷運站-出口2</SimpleData>
+		<SimpleData name="landmarkad">6400020</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.309782359164,22.760925063795401</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#VP0270">
+		<SimpleData name="landmarkid">6400000001621</SimpleData>
+		<SimpleData name="landmarkco">306</SimpleData>
+		<SimpleData name="landmarkna">西子灣捷運站-出口1</SimpleData>
+		<SimpleData name="landmarkad">6400002</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.273408328372,22.6220210064245</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#VP0270">
+		<SimpleData name="landmarkid">6400000001622</SimpleData>
+		<SimpleData name="landmarkco">306</SimpleData>
+		<SimpleData name="landmarkna">西子灣捷運站-出口2</SimpleData>
+		<SimpleData name="landmarkad">6400002</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.275285334022,22.621596976142499</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#VP0270">
+		<SimpleData name="landmarkid">6400000001623</SimpleData>
+		<SimpleData name="landmarkco">306</SimpleData>
+		<SimpleData name="landmarkna">凹子底捷運站-出口1</SimpleData>
+		<SimpleData name="landmarkad">6400002</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.302809326675,22.6571660321618</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#VP0270">
+		<SimpleData name="landmarkid">6400000001624</SimpleData>
+		<SimpleData name="landmarkco">306</SimpleData>
+		<SimpleData name="landmarkna">凹子底捷運站-出口4</SimpleData>
+		<SimpleData name="landmarkad">6400002</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.30255735255599,22.658653059692199</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#VP0270">
+		<SimpleData name="landmarkid">6400000001625</SimpleData>
+		<SimpleData name="landmarkco">306</SimpleData>
+		<SimpleData name="landmarkna">巨蛋捷運站-出口2</SimpleData>
+		<SimpleData name="landmarkad">6400002</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.302955319977,22.665682035285599</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#VP0270">
+		<SimpleData name="landmarkid">6400000001626</SimpleData>
+		<SimpleData name="landmarkco">306</SimpleData>
+		<SimpleData name="landmarkna">美麗島捷運站-出口4</SimpleData>
+		<SimpleData name="landmarkad">6400006</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.302532363623,22.6317379778576</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#VP0270">
+		<SimpleData name="landmarkid">6400000001627</SimpleData>
+		<SimpleData name="landmarkco">306</SimpleData>
+		<SimpleData name="landmarkna">美麗島捷運站-出口5</SimpleData>
+		<SimpleData name="landmarkad">6400006</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.30315733979,22.6311699906048</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#VP0270">
+		<SimpleData name="landmarkid">6400000001628</SimpleData>
+		<SimpleData name="landmarkco">306</SimpleData>
+		<SimpleData name="landmarkna">美麗島捷運站-出口6</SimpleData>
+		<SimpleData name="landmarkad">6400006</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.304356355292,22.631095988688301</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#VP0270">
+		<SimpleData name="landmarkid">6400000001629</SimpleData>
+		<SimpleData name="landmarkco">306</SimpleData>
+		<SimpleData name="landmarkna">美麗島捷運站-出口7</SimpleData>
+		<SimpleData name="landmarkad">6400006</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.30317130991,22.631423025100801</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#VP0270">
+		<SimpleData name="landmarkid">6400000001630</SimpleData>
+		<SimpleData name="landmarkco">306</SimpleData>
+		<SimpleData name="landmarkna">美麗島捷運站-出口8</SimpleData>
+		<SimpleData name="landmarkad">6400006</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.304394355143,22.631341992417202</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#VP0270">
+		<SimpleData name="landmarkid">6400000001631</SimpleData>
+		<SimpleData name="landmarkco">306</SimpleData>
+		<SimpleData name="landmarkna">美麗島捷運站-出口9</SimpleData>
+		<SimpleData name="landmarkad">6400006</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.301852329282,22.632212065695899</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#VP0270">
+		<SimpleData name="landmarkid">6400000001632</SimpleData>
+		<SimpleData name="landmarkco">306</SimpleData>
+		<SimpleData name="landmarkna">美麗島捷運站-出口10</SimpleData>
+		<SimpleData name="landmarkad">6400006</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.30220336298601,22.632185053640899</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#VP0270">
+		<SimpleData name="landmarkid">6400000001633</SimpleData>
+		<SimpleData name="landmarkco">306</SimpleData>
+		<SimpleData name="landmarkna">美麗島捷運站-出口11</SimpleData>
+		<SimpleData name="landmarkad">6400006</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.301897333399,22.632675038214899</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#VP0270">
+		<SimpleData name="landmarkid">6400000001634</SimpleData>
+		<SimpleData name="landmarkco">306</SimpleData>
+		<SimpleData name="landmarkna">美麗島捷運站-出口1</SimpleData>
+		<SimpleData name="landmarkad">6400006</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.301388326573,22.6316970532129</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#VP0270">
+		<SimpleData name="landmarkid">6400000001635</SimpleData>
+		<SimpleData name="landmarkco">306</SimpleData>
+		<SimpleData name="landmarkna">美麗島捷運站-出口2</SimpleData>
+		<SimpleData name="landmarkad">6400006</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.301493311247,22.630960987503201</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#VP0270">
+		<SimpleData name="landmarkid">6400000001636</SimpleData>
+		<SimpleData name="landmarkco">306</SimpleData>
+		<SimpleData name="landmarkna">美麗島捷運站-出口3</SimpleData>
+		<SimpleData name="landmarkad">6400006</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.302450347156,22.630929026322899</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#VP0270">
+		<SimpleData name="landmarkid">6400000001637</SimpleData>
+		<SimpleData name="landmarkco">306</SimpleData>
+		<SimpleData name="landmarkna">信義國小捷運站-出口1</SimpleData>
+		<SimpleData name="landmarkad">6400006</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.31050136031,22.631036993947902</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#VP0270">
+		<SimpleData name="landmarkid">6400000001638</SimpleData>
+		<SimpleData name="landmarkco">306</SimpleData>
+		<SimpleData name="landmarkna">信義國小捷運站-出口2</SimpleData>
+		<SimpleData name="landmarkad">6400006</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.311284316917,22.630980026989398</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#VP0270">
+		<SimpleData name="landmarkid">6400000001639</SimpleData>
+		<SimpleData name="landmarkco">306</SimpleData>
+		<SimpleData name="landmarkna">信義國小捷運站-出口3</SimpleData>
+		<SimpleData name="landmarkad">6400006</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.310481337485,22.630563021735298</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#VP0270">
+		<SimpleData name="landmarkid">6400000001640</SimpleData>
+		<SimpleData name="landmarkco">306</SimpleData>
+		<SimpleData name="landmarkna">信義國小捷運站-出口4</SimpleData>
+		<SimpleData name="landmarkad">6400006</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.31217133035901,22.630523042836501</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#VP0270">
+		<SimpleData name="landmarkid">6400000001641</SimpleData>
+		<SimpleData name="landmarkco">306</SimpleData>
+		<SimpleData name="landmarkna">信義國小捷運站-出口5</SimpleData>
+		<SimpleData name="landmarkad">6400006</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.312212330508,22.630830020949499</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#VP0270">
+		<SimpleData name="landmarkid">6400000001642</SimpleData>
+		<SimpleData name="landmarkco">306</SimpleData>
+		<SimpleData name="landmarkna">文化中心捷運站-出口1</SimpleData>
+		<SimpleData name="landmarkad">6400006</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.31668537535801,22.6305210225994</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#VP0270">
+		<SimpleData name="landmarkid">6400000001643</SimpleData>
+		<SimpleData name="landmarkco">306</SimpleData>
+		<SimpleData name="landmarkna">中央公園捷運站-出口2</SimpleData>
+		<SimpleData name="landmarkad">6400006</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.30129138551,22.6237930273236</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#VP0270">
+		<SimpleData name="landmarkid">6400000001644</SimpleData>
+		<SimpleData name="landmarkco">306</SimpleData>
+		<SimpleData name="landmarkna">中央公園捷運站-出口3</SimpleData>
+		<SimpleData name="landmarkad">6400006</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.30155331663801,22.625897978989101</coordinates></Point>
+  </Placemark>
+</Folder>
+</Document></kml>
