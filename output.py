@@ -9,6 +9,12 @@ def get_result(longitude, latitude):
         'attractions': ['維元家', '新崛江']
     }
 
+    with open('./datasrc/Bus.json') as data_file:
+        bus_info = json.load(data_file)
+    with open('./datasrc/MRT.json') as data_file:
+        mrt_info = json.load(data_file)
+    
+
     return json.dumps(result, sort_keys= True, encoding = 'utf8', ensure_ascii= False)
 
 
