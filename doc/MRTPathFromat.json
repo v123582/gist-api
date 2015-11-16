@@ -1,5 +1,7 @@
+// 任兩點捷運站的路線
+
 {
-  "捷運站線": [{
+  "捷運線": [{
     "soruce": "string",
     "target": "srting",
     "path":{
