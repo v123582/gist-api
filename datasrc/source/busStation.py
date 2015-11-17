@@ -52,8 +52,12 @@ while 1:
                 temp2 = {"路線":bus,"可到達捷運站":Mrt}
                 result[busName]["路線"] = temp + [temp2]
         else:
-            latitude = char[9].strip('latitude="').strip('"')
-            longitude = char[10].strip('longitude="').strip('"')
+            if('latitude' in char[9]):
+                latitude = char[9].strip('latitude="').strip('"')
+                longitude = char[10].strip('longitude="').strip('"')
+            else:
+                latitude = char[10].strip('latitude="').strip('"')
+                longitude = char[11].strip('longitude="').strip('"')
             Mrt = busStation.get(bus)
             result[busName] = {"公車站名":busName,"座標":{"經度":latitude,"緯度":longitude},"路線":[{"路線":bus,"可到達捷運站":Mrt}]} 
     
