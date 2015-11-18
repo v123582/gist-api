@@ -48,7 +48,7 @@ function Go(){
    var start = $('#input1').val();
    var end = $('#input2').val();
    $.ajax({
-         url:"gist-api.herokuapp.com/"+start+"/"+end,
+         url:"/"+start+"/"+end,
          crossDomain: true,
          type:"GET",
          dataType:'json',
