@@ -130,6 +130,7 @@ def api(sourceLongitude, sourceLatitude, targetLongitude, targetLatitude):
     return json.dumps(API,indent=1).decode("unicode_escape").encode("utf-8")
 
 
+##
 #print api(120.3021,22.6332,120.3021,22.6332) #測試六合夜市到六合夜市
 
 def get_result(longitude, latitude):
