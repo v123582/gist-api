@@ -8,7 +8,7 @@ function initialize() {
 	"type": "FeatureCollection",
 	"features": [{
 		"type": "Feature",
-		"geometry": 
+		"geometry":
 		{
 			"type": "LineString",
 	        "coordinates": [
@@ -43,3 +43,23 @@ function initialize() {
   map.data.addGeoJson(input_geojson); //geojson function
 }
 google.maps.event.addDomListener(window, 'load', initialize);
+
+function Go(){
+   var start = $('#input1').val();
+   var end = $('#input2').val();
+   $.ajax({
+         url:"http://localhost:5000/"+start+"/"+end,
+         crossDomain: true,
+         type:"GET",
+         dataType:'json',
+         success: function(html) {
+            console.log(html);
+            alert(html['來源']);
+            alert(html['目的']);
+        },
+        error:function(html){
+            alert('error');
+        }
+   });
+
+}
