@@ -4,7 +4,7 @@ import json
 # TODO: 輸入任何一個位置，回傳最近的站點
 def nearlyStations(sourceLongitude, sourceLatitude):  #經緯
     f_read_MRT = open("./datasrc/MRT.json","r")
-    f_read_Bus = open("./busStation.json","r") #讀檔有改
+    f_read_Bus = open("./datasrc/busStation.json","r") #讀檔有改
     MRT_Text = json.loads(f_read_MRT.read())
     MRT_List = MRT_Text[u"捷運站"]
     Bus_Text = json.loads(f_read_Bus.read())
@@ -37,7 +37,7 @@ def nearlyStations(sourceLongitude, sourceLatitude):  #經緯
 
 #TODO: 輸入兩個bus節點，回傳坐公車怎麼到
 def Bus2Bus(Source_BUS_Station, Target_BUS_Station):
-    f_read_Bus = open("./busStation.json","r") #讀檔有改
+    f_read_Bus = open("./datasrc/busStation.json","r") #讀檔有改
     Bus_Text = json.loads(f_read_Bus.read())
     f_read_Bus.close()
     Bus_List = Bus_Text[u"公車站"]
@@ -131,7 +131,7 @@ def api(sourceLongitude, sourceLatitude, targetLongitude, targetLatitude):
 
 
 ##
-#print api(120.3021,22.6332,120.3021,22.6332) #測試六合夜市到六合夜市
+# print api(120.3021,22.6332,120.3021,22.6332) #測試六合夜市到六合夜市
 
 def get_result(longitude, latitude):
     result = {
@@ -141,9 +141,9 @@ def get_result(longitude, latitude):
         'attractions': ['維元家', '新崛江']
     }
 
-    with open('./datasrc/Bus.json') as data_file:
-        bus_info = json.load(data_file)
-    with open('./datasrc/MRT.json') as data_file:
-        mrt_info = json.load(data_file)
+    # with open('./datasrc/Bus.json') as data_file:
+    #     bus_info = json.load(data_file)
+    # with open('./datasrc/MRT.json') as data_file:
+    #     mrt_info = json.load(data_file)
     
     return json.dumps(result, sort_keys= True, encoding = 'utf8', ensure_ascii= False)

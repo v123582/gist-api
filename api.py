@@ -3,6 +3,9 @@
 from flask import Flask, render_template
 from flask_restful import Resource, Api
 from geopy.geocoders import GoogleV3
+import json
+import output
+
 geolocator = GoogleV3()
 app = Flask(__name__)
 api = Api(app)
@@ -17,9 +20,11 @@ class index(Resource):
 
 class gistApi(Resource):
     def get(self, source, target):
+    	print 'hello'
         (address,(latitude_s, longitude_s)) = geolocator.geocode(source)
         (address,(latitude_t, longitude_t)) = geolocator.geocode(target)
-        return {'來源': [latitude_s, longitude_s], '目的': [latitude_t, longitude_t]}
+        api = output.api(longitude_s, latitude_s, longitude_t, latitude_t)
+        return {'api': json.loads(api), 'input': [(source, (longitude_s, latitude_s)), (target, (longitude_t, latitude_t))]}
         #return {'來源': source, '目的': target}
 
 

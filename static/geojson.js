@@ -48,14 +48,25 @@ function Go(){
    var start = $('#input1').val();
    var end = $('#input2').val();
    $.ajax({
-         url:"http://localhost:5000/"+start+"/"+end,
+         url:"http://127.0.0.1:5000/"+start+"/"+end,
          crossDomain: true,
          type:"GET",
          dataType:'json',
          success: function(html) {
-            console.log(html);
-            alert(html['來源']);
-            alert(html['目的']);
+         	api = html['api'];
+            console.log(api["SOURCE_BUS"]);
+            console.log(api['SOURCE_MRT']);
+            console.log(api['TARGET_BUS']);
+            console.log(api['TARGET_MRT']);
+            console.log(api['Rule']['type1']);
+            console.log(api['Rule']['type2']);
+            console.log(api['Rule']['type3']);
+            console.log(api['Rule']['type4']);
+            console.log(api['Rule']['type5']);
+          	source = html['input'][0];
+          	console.log(source);
+          	target = html['input'][1];
+          	console.log(target);
         },
         error:function(html){
             alert('error');
