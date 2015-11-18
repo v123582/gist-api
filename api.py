@@ -1,8 +1,9 @@
-# -*- coding: utf-8 -*- 
+# -*- coding: utf-8 -*-
 
 from flask import Flask, render_template
 from flask_restful import Resource, Api
-
+from geopy.geocoders import GoogleV3
+geolocator = GoogleV3()
 app = Flask(__name__)
 api = Api(app)
 
@@ -16,7 +17,11 @@ class index(Resource):
 
 class gistApi(Resource):
     def get(self, source, target):
-        return {'來源': source, '目的': target}
+        (address,(latitude_s, longitude_s)) = geolocator.geocode(source)
+        (address,(latitude_t, longitude_t)) = geolocator.geocode(target)
+        return {'來源': [latitude_s, longitude_s], '目的': [latitude_t, longitude_t]}
+        #return {'來源': source, '目的': target}
+
 
 
 api.add_resource(index, '/')
