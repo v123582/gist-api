@@ -20,7 +20,6 @@ class index(Resource):
 
 class gistApi(Resource):
     def get(self, source, target):
-    	print 'hello'
         (address,(latitude_s, longitude_s)) = geolocator.geocode(source)
         (address,(latitude_t, longitude_t)) = geolocator.geocode(target)
         api = output.api(longitude_s, latitude_s, longitude_t, latitude_t)
