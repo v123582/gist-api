@@ -2,10 +2,19 @@
 <html>
 <head>
 	<script src="https://maps.googleapis.com/maps/api/js"></script>
+	<script type="text/javascript" src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
 	<script src="{{ url_for('static', filename='geojson.js') }}"></script>
-	
 </head>
 <body>
-	<div id="googleMap" style="width:800px;height:600px;"></div>
+	<div style="float:left;width:100%;">
+		<div id="googleMap" style="float:left;width:800px;height:600px;width:70%;"></div>
+			<div style = "float:right;line-height:50px;text-align:center;width:30%;margin-top:450px;">
+				<form id="form" method="POST">
+					請輸入起點：<input type="text" name="欄位名稱" id= "input1"></br>
+					請輸入終點：<input type="text" name="欄位名稱" id= "input2"></br>
+										<button type="button" onclick="Go();" >傳送！</button>
+			  </form>
+		</div>
+ </div>
 </body>
 </html>
