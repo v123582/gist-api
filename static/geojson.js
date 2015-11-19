@@ -76,7 +76,7 @@ function Go(){
 			$('#SOURCE_BUS').html("離起點最近的公車站: "+api["SOURCE_BUS"]);
 			$('#SOURCE_MRT').html("離起點最近的捷運站: "+api["SOURCE_MRT"]);
 			$('#TARGET_BUS').html("離終點最近的公車站: "+api['TARGET_BUS']);
-			$('#TARGET_MRT').html("離終點最近的公車站: "+api['TARGET_MRT']);
+			$('#TARGET_MRT').html("離終點最近的捷運站: "+api['TARGET_MRT']);
 			var c = 1;
 			if(api['Rule']['type1'].length != 0){
 				$('#rule1').append(c + ": "+api['Rule']['type1']+"<br>");
