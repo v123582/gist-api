@@ -82,6 +82,71 @@ def Bus2MRT(busStation, MRTStation):
             break
     return busNo
 
+
+
+#包六個點的geoson
+def GeoJson6Point(sourceLongitude, sourceLatitude,targetLongitude, targetLatitude):  
+    # Step1: 找出離來源最近的站
+    Source_MRT_Station, Source_BUS_Station =  nearlyStations(sourceLongitude, sourceLatitude)
+    # Step2: 找出離目標最近的站
+    Target_MRT_Station, Target_BUS_Station = nearlyStations(targetLongitude, targetLatitude)
+    f_read_MRT = open("./datasrc/MRT.json","r")
+    f_read_Bus = open("./datasrc/busStation.json","r") #讀檔有改
+    MRT_Text = json.loads(f_read_MRT.read())
+    MRT_List = MRT_Text[u"捷運站"]
+    Bus_Text = json.loads(f_read_Bus.read())
+    Bus_List = Bus_Text[u"公車站"]
+    f_read_MRT.close()
+    f_read_Bus.close()
+    Source_MRT_Location = []
+    Source_BUS_Location = []
+    Target_MRT_Location = []
+    Target_BUS_Location = []
+    for item in MRT_List:
+        if item[u"站名-出口"] == Source_MRT_Station:
+                Source_MRT_Location = [item[u"座標"][u"經度"],item[u"座標"][u"緯度"]]
+        if item[u"站名-出口"] == Target_MRT_Station:
+                Target_MRT_Location = [item[u"座標"][u"經度"],item[u"座標"][u"緯度"]]
+    for item in Bus_List:
+        if item[u"公車站名"] == Source_BUS_Station:
+                Source_BUS_Location = [float(item[u"座標"][u"緯度"]),float(item[u"座標"][u"經度"])]
+        if item[u"公車站名"] == Target_BUS_Station:
+                Target_BUS_Location = [float(item[u"座標"][u"緯度"]),float(item[u"座標"][u"經度"])]
+    #得到六個點轉成geo json
+
+    Point_Set_Location = [[sourceLongitude, sourceLatitude],[targetLongitude, targetLatitude], Source_MRT_Location, Source_BUS_Location, Target_MRT_Location, Target_BUS_Location] #順序是:來源地 目標地 來源捷運 來源公車 目標捷運 目標公車
+    #print Point_Set_Location
+
+    Point_Set_Location_GeoJson = {}
+    Point_Set_Location_GeoJson[u"type"] = "FeatureCollection"
+    feature_List = []
+    for each_point_index in range(len(Point_Set_Location)):
+        feature_dic = {}
+        
+        geometry_dic ={}
+        geometry_dic[u"type"] = "Point"
+        geometry_dic[u"coordinates"] = Point_Set_Location[each_point_index]
+        feature_dic[u"type"] = "Feature"
+        feature_dic[u"geometry"] = geometry_dic
+        properties = {}
+        if each_point_index == 0 :
+            properties[u"icon"] = "http://maps.google.com/mapfiles/kml/paddle/red-stars.png"
+        elif each_point_index == 1 :
+            properties[u"icon"] = "./icon/star-3.png"
+        elif each_point_index == 2 or each_point_index == 4:
+            properties[u"icon"] = "./icon/underground.png"
+        else:
+            properties[u"icon"] = "./icon/busstop.png"
+
+        feature_dic["properties"] = properties
+        feature_List.append(feature_dic)
+    Point_Set_Location_GeoJson[u"features"] = feature_List
+    #print json.dumps(Point_Set_Location_GeoJson,indent = 1)
+
+    return Point_Set_Location_GeoJson
+
+    
+
 # TODO: 整體工作
 def api(sourceLongitude, sourceLatitude, targetLongitude, targetLatitude):
     # Step1: 找出離來源最近的站
@@ -126,12 +191,12 @@ def api(sourceLongitude, sourceLatitude, targetLongitude, targetLatitude):
     api_rule_dic["type4"] = Rule_4
     api_rule_dic["type5"] = Rule_5
     API["Rule"] = api_rule_dic
-
+    API["GeoJson6Point"] = GeoJson6Point(sourceLongitude, sourceLatitude, targetLongitude, targetLatitude)
     return json.dumps(API,indent=1).decode("unicode_escape").encode("utf-8")
 
 
 ##
-# print api(120.3021,22.6332,120.3021,22.6332) #測試六合夜市到六合夜市
+print api (120.3021,22.6332,120.3521,22.6732) #測試六合夜市到六合夜市
 
 def get_result(longitude, latitude):
     result = {
