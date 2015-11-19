@@ -7,13 +7,29 @@
 </head>
 <body>
 	<div style="float:left;width:100%;">
-		<div id="googleMap" style="float:left;width:800px;height:600px;width:70%;"></div>
-			<div style = "float:right;line-height:50px;text-align:center;width:30%;margin-top:450px;">
+		<div id="googleMap" style="float:left;width:800px;height:600px;width:65%;"></div>
+		<div style = "float:right;width:35%;">
+			<div style = "line-height:10px;margin-left:20px;height:480px;line-height:17px;">
+				<p id="start"></p>
+				<p id="end"></p>
+				<p id="SOURCE_BUS"></p>
+				<p id="SOURCE_MRT"></p>
+				<p id="TARGET_BUS"></p>
+				<p id="TARGET_MRT"></p>
+				<p id="rule1"></p>
+				<p id="rule2"></p>
+				<p id="rule3"></p>
+				<p id="rule4"></p>
+				<p id="rule5"></p>
+			</div>
+			<div style = "line-height:30px;text-align:center;height:120px;">
 				<form id="form" method="POST">
 					請輸入起點：<input type="text" name="欄位名稱" id= "input1"></br>
 					請輸入終點：<input type="text" name="欄位名稱" id= "input2"></br>
-										<button type="button" onclick="Go();" >傳送！</button>
-			  </form>
+					<button type="button" onclick="Go();" >傳送！</button>
+				</form>
+			</div>
+			
 		</div>
  </div>
 </body>

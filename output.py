@@ -130,13 +130,13 @@ def GeoJson6Point(sourceLongitude, sourceLatitude,targetLongitude, targetLatitud
         feature_dic[u"geometry"] = geometry_dic
         properties = {}
         if each_point_index == 0 :
-            properties[u"icon"] = "http://maps.google.com/mapfiles/kml/paddle/red-stars.png"
+            properties[u"icon"] = "http://i.imgur.com/kId2AWX.png?1"
         elif each_point_index == 1 :
-            properties[u"icon"] = "./icon/star-3.png"
+            properties[u"icon"] = "http://i.imgur.com/ixnS17A.png?1"
         elif each_point_index == 2 or each_point_index == 4:
-            properties[u"icon"] = "./icon/underground.png"
+            properties[u"icon"] = "http://i.imgur.com/5gyooz5.png?1"
         else:
-            properties[u"icon"] = "./icon/busstop.png"
+            properties[u"icon"] = "http://i.imgur.com/Kr4HlrI.png?1"
 
         feature_dic["properties"] = properties
         feature_List.append(feature_dic)
@@ -196,7 +196,7 @@ def api(sourceLongitude, sourceLatitude, targetLongitude, targetLatitude):
 
 
 ##
-print api (120.3021,22.6332,120.3521,22.6732) #測試六合夜市到六合夜市
+##print api (120.3021,22.6332,120.3521,22.6732) #測試六合夜市到六合夜市
 
 def get_result(longitude, latitude):
     result = {
